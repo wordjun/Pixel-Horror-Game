@@ -1,0 +1,1081 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-junhyunpark
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [202084 22:20:52] Next license update check is after 2020-08-04T14:16:08
+
+Built from '2019.3/release' branch; Version is '2019.3.13f1 (d4ddf0d95db9) revision 13950448'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ko' Physical Memory: 16306 MB
+[Licensing::Module] Serial number assigned to: "SC-GST5-UEZC-Z7FU-4M7G-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2019.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/junhyunpark/Unity Projects/pixel horror game
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+63152
+Successfully changed project path to: C:/Users/junhyunpark/Unity Projects/pixel horror game
+C:/Users/junhyunpark/Unity Projects/pixel horror game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 20.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.3.13f1 (d4ddf0d95db9)
+[Subsystems] Discovering subsystems at path C:/Program Files/2019.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/junhyunpark/Unity Projects/pixel horror game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   26.21.14.4614
+Initialize mono
+Mono path[0] = 'C:/Program Files/2019.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2019.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2019.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004348 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Registering precompiled user dll's ...
+Registered in 0.083840 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.2 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 2.884100 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.155000 ms MarkObjects: 1.395700 ms  DeleteObjects: 0.937800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Environment/Talisman1.png
+  artifactKey: Guid(cabb09deb5795634aae7456757c54939) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Talisman1.png using Guid(cabb09deb5795634aae7456757c54939) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7f01eead663321a4596c9198e6514bca.asset.1.index for Assets/Environment/Talisman1.png with Types
+Done importing asset: 'Assets/Environment/Talisman1.png' (target hash: 'd172063c23c0f3b551ce5f3b981db992') in 0.136951 seconds
+  Import took 0.140316 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Environment/Wall_Full.mat
+  artifactKey: Guid(a584273ed84a8f640b0e6271d52bc985) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Wall_Full.mat using Guid(a584273ed84a8f640b0e6271d52bc985) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/47cfec8f19b14cf47a4b5c74497c4f23.asset.1.index for Assets/Environment/Wall_Full.mat with Types
+Done importing asset: 'Assets/Environment/Wall_Full.mat' (target hash: 'b9d2264bc41c1c67f9b07003999bd415') in 0.011688 seconds
+  Import took 0.014975 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Environment/Ceiling.png
+  artifactKey: Guid(a9f2bf43f493c0e4ba31830a4ff34b11) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Ceiling.png using Guid(a9f2bf43f493c0e4ba31830a4ff34b11) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9acc7755bf37b8d4da271fff13e9d662.asset.1.index for Assets/Environment/Ceiling.png with Types
+Done importing asset: 'Assets/Environment/Ceiling.png' (target hash: '38afe9a66b70603c97bad1944eab570a') in 0.008774 seconds
+  Import took 0.011447 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Environment/Floor.mat
+  artifactKey: Guid(64a7ffb1922c28641b00218adb9ceaed) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Floor.mat using Guid(64a7ffb1922c28641b00218adb9ceaed) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/441a088f3b6f39d4b8a3f849757f371f.asset.1.index for Assets/Environment/Floor.mat with Types
+Done importing asset: 'Assets/Environment/Floor.mat' (target hash: '4a7a13780ba5057dafe023d65da3a0b9') in 0.008716 seconds
+  Import took 0.011801 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Environment/Puzzle_digit3.png
+  artifactKey: Guid(81c0a8275d631464e827785ec0e7f45c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Puzzle_digit3.png using Guid(81c0a8275d631464e827785ec0e7f45c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6d1bb6824e26bcb4d9153ecbcfdf41b9.asset.1.index for Assets/Environment/Puzzle_digit3.png with Types
+Done importing asset: 'Assets/Environment/Puzzle_digit3.png' (target hash: '2888c66619dd4093d863af2ff4845891') in 0.007992 seconds
+  Import took 0.010924 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Environment/BloodStainedWall2.png
+  artifactKey: Guid(de76f005b2335fc4c9244a455826af34) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/BloodStainedWall2.png using Guid(de76f005b2335fc4c9244a455826af34) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/10ae5c95f2e1b1d41817823831f151e9.asset.1.index for Assets/Environment/BloodStainedWall2.png with Types
+Done importing asset: 'Assets/Environment/BloodStainedWall2.png' (target hash: '1c36d6c208637320007fffe7440f317b') in 0.009285 seconds
+  Import took 0.011993 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Environment/Wall_Bottom.mat
+  artifactKey: Guid(88b459818eaacdf4098016c9cb4d2cd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Wall_Bottom.mat using Guid(88b459818eaacdf4098016c9cb4d2cd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4b5626cdaf38c454da00a0adcacdb558.asset.1.index for Assets/Environment/Wall_Bottom.mat with Types
+Done importing asset: 'Assets/Environment/Wall_Bottom.mat' (target hash: '2c7d0ca2151ad3f191c4c3c4983204a9') in 0.008006 seconds
+  Import took 0.010922 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Environment/Wall_Full.png
+  artifactKey: Guid(4697936c03e2bbb4b9c999b37f12f352) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Wall_Full.png using Guid(4697936c03e2bbb4b9c999b37f12f352) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c3b6d89393173a644b92aa0d36b06abd.asset.1.index for Assets/Environment/Wall_Full.png with Types
+Done importing asset: 'Assets/Environment/Wall_Full.png' (target hash: '429ce46f69b3a773132a625a372d8cea') in 0.008803 seconds
+  Import took 0.011342 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Environment/Puzzle_digit7.png
+  artifactKey: Guid(ef53a54a7c24ed14989f893b2680e60f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Puzzle_digit7.png using Guid(ef53a54a7c24ed14989f893b2680e60f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6e52935615a2ffc45af2ac615790e9be.asset.1.index for Assets/Environment/Puzzle_digit7.png with Types
+Done importing asset: 'Assets/Environment/Puzzle_digit7.png' (target hash: 'af99dd2629a71c65a385e72701966c80') in 0.007850 seconds
+  Import took 0.010453 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(7a55144a45f85c4458cb29ea7fbc3fae) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(7a55144a45f85c4458cb29ea7fbc3fae) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/331556648fac2d94b9cd98e029d8a506.asset.1.index for Assets/ProBuilder Data/Default Material Palette.asset with Types
+Done importing asset: 'Assets/ProBuilder Data/Default Material Palette.asset' (target hash: '5dd74bf91bce04b565144dc3cae13ab1') in 0.014836 seconds
+  Import took 0.017861 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Environment/BloodStainedWall1.png
+  artifactKey: Guid(d6a54e8f63163b3489c16065ff20fbdd) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/BloodStainedWall1.png using Guid(d6a54e8f63163b3489c16065ff20fbdd) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7374640d384dc184684c740ff21308bb.asset.1.index for Assets/Environment/BloodStainedWall1.png with Types
+Done importing asset: 'Assets/Environment/BloodStainedWall1.png' (target hash: '5f3daab26da7a901aede802ee94963e6') in 0.008505 seconds
+  Import took 0.011189 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Environment/Puzzle_digit4.png
+  artifactKey: Guid(d64b76e2816ba3a47b8662c646127e23) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Puzzle_digit4.png using Guid(d64b76e2816ba3a47b8662c646127e23) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4e8c56d21c06b6e45a18c5642d51f6ef.asset.1.index for Assets/Environment/Puzzle_digit4.png with Types
+Done importing asset: 'Assets/Environment/Puzzle_digit4.png' (target hash: '5c2b1befebe07646ddaeffc20b52cb8d') in 0.009008 seconds
+  Import took 0.011963 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Environment/Wall_Bottom.png
+  artifactKey: Guid(cd46fee04c495614c8b7bd09e9f0f6d4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Wall_Bottom.png using Guid(cd46fee04c495614c8b7bd09e9f0f6d4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4d35daffdf3664a49b6031b7496f0142.asset.1.index for Assets/Environment/Wall_Bottom.png with Types
+Done importing asset: 'Assets/Environment/Wall_Bottom.png' (target hash: '6511a7233d5ca176a22c313c6afd1d26') in 0.008157 seconds
+  Import took 0.010833 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cf67f90d9ccc83d4cb347a1998ffd5af.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '170e275b0699afd3e64dba525a1bce59') in 0.007355 seconds
+  Import took 0.009931 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Environment/Family.png
+  artifactKey: Guid(7dd712e170144bb42af48319430da15c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Family.png using Guid(7dd712e170144bb42af48319430da15c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b460c01631385c74e9b61742cf0c1f6b.asset.1.index for Assets/Environment/Family.png with Types
+Done importing asset: 'Assets/Environment/Family.png' (target hash: '99684786c79a855d3e5954af7121b5af') in 0.009489 seconds
+  Import took 0.012909 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Environment/Floor.png
+  artifactKey: Guid(2452574df08531e459f970d51e217fe2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Floor.png using Guid(2452574df08531e459f970d51e217fe2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/52476fa2a8da1e7418eba73e9d690979.asset.1.index for Assets/Environment/Floor.png with Types
+Done importing asset: 'Assets/Environment/Floor.png' (target hash: 'a5711ff645f1dfbfb417df685709412a') in 0.008735 seconds
+  Import took 0.011418 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Environment/Ceiling.mat
+  artifactKey: Guid(d942c42fdcbd15c40ade1d8dd4dd6633) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Ceiling.mat using Guid(d942c42fdcbd15c40ade1d8dd4dd6633) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/8aaf43c4d86bc914c8a6e5e75dfd6290.asset.1.index for Assets/Environment/Ceiling.mat with Types
+Done importing asset: 'Assets/Environment/Ceiling.mat' (target hash: '0933aacbc232e47a43019c6fc94fdcf2') in 0.007745 seconds
+  Import took 0.010359 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004917 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Registering precompiled user dll's ...
+Registered in 0.076629 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1859.
+Total: 2.366100 ms (FindLiveObjects: 0.264000 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.186600 ms  DeleteObjects: 0.872900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2102.279808 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2fdd03f8c7e040f42bd5baee17e3ec37.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '86c9defda2198ea70d45acd08933c55a') in 0.067089 seconds
+  Import took 0.070031 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004089 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Registering precompiled user dll's ...
+Registered in 0.076997 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1866.
+Total: 2.093200 ms (FindLiveObjects: 0.292300 ms CreateObjectMapping: 0.044800 ms MarkObjects: 0.961200 ms  DeleteObjects: 0.794300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.289155 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/de84404be1dce7a4fb09cae0ccafae00.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '5a2f2ec97c71f15252ed803056da242c') in 0.056249 seconds
+  Import took 0.059109 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004006 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Registering precompiled user dll's ...
+Registered in 0.074772 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 2.347800 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.264400 ms  DeleteObjects: 0.786900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.761975 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4dbbce85da2c268448a31bfea8d1270f.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '00f6905a95b77663eb896aee705310db') in 0.055909 seconds
+  Import took 0.058581 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003433 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Registering precompiled user dll's ...
+Registered in 0.070300 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 2.172500 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.082600 ms  DeleteObjects: 0.785200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.534548 seconds.
+  path: Assets/Environment/Wall_Bottom.mat
+  artifactKey: Guid(88b459818eaacdf4098016c9cb4d2cd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Wall_Bottom.mat using Guid(88b459818eaacdf4098016c9cb4d2cd1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5d5135cf73468fb40afe1188ec925267.asset.1.index for Assets/Environment/Wall_Bottom.mat with Types
+Done importing asset: 'Assets/Environment/Wall_Bottom.mat' (target hash: '9007cd8d0359ac1510240cac2b2fdb0e') in 0.057691 seconds
+  Import took 0.060370 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4114ff851c747a74a80929f4e3e19228.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '8299782cedddb673af5fbb90bc27fcdf') in 0.009562 seconds
+  Import took 0.012185 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004316 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Registering precompiled user dll's ...
+Registered in 0.084152 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 2.272800 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.169500 ms  DeleteObjects: 0.803100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 467.905898 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b6d6b4f5f4a5e5f4f919ae159dee5f13.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '561e32688ccfc3866c61b83759059126') in 0.055556 seconds
+  Import took 0.060030 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003747 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Registering precompiled user dll's ...
+Registered in 0.082498 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 2.259500 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.006500 ms  DeleteObjects: 0.806100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004526 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Registering precompiled user dll's ...
+Registered in 0.076073 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 2.215400 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.046800 ms  DeleteObjects: 0.844200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004247 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Registering precompiled user dll's ...
+Registered in 0.074216 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 2.195400 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.044900 ms  DeleteObjects: 0.807900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.383102 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/03d2b0d873a93e04ea13312f0ee8aec3.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '2ed5b5b10553b47a289f958326418f23') in 0.065367 seconds
+  Import took 0.068067 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004580 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Registering precompiled user dll's ...
+Registered in 0.074666 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1908.
+Total: 2.249800 ms (FindLiveObjects: 0.267200 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.139400 ms  DeleteObjects: 0.804500 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005253 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Registering precompiled user dll's ...
+Registered in 0.073205 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 2.266500 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.069800 ms  DeleteObjects: 0.874700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003958 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Registering precompiled user dll's ...
+Registered in 0.077108 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.582 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 2.313400 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.145000 ms  DeleteObjects: 0.864600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.004164 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6d9842fa66004b64f86c76190f1e69b9.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '432e076e3f2ea4876e270f51259292c9') in 0.056160 seconds
+  Import took 0.058860 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004155 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Registering precompiled user dll's ...
+Registered in 0.077915 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 2.254900 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.053800 ms  DeleteObjects: 0.872700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004048 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Registering precompiled user dll's ...
+Registered in 0.078368 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 2.319700 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.163000 ms  DeleteObjects: 0.820200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.509971 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ed300cdc12e4f6043a943e6f15a4f756.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '896cc84639e487dd88333eed58df63f6') in 0.057618 seconds
+  Import took 0.060399 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004803 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.956 seconds
+Registering precompiled user dll's ...
+Registered in 0.106705 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.6 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 2.374900 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.138200 ms  DeleteObjects: 0.873300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2031.755687 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cc1debdc12afb0049a8aa8312249c5b1.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: 'ed55a39a73a3381bc9b7abfb611ad41c') in 0.062796 seconds
+  Import took 0.065731 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005366 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.137 seconds
+Registering precompiled user dll's ...
+Registered in 0.087625 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.100 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 3.136100 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.932100 ms  DeleteObjects: 0.876400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3231.735300 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2a66df206a1d11e49849cf7ba3b4095e.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: '7ed2027db499ffb67a767d7adf15466e') in 0.064363 seconds
+  Import took 0.071158 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004310 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.312 seconds
+Registering precompiled user dll's ...
+Registered in 0.090984 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.473500 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.241300 ms  DeleteObjects: 0.844200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.481070 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/18bece0cecb51bc479f9c79d56303c68.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '913ab98798030e0d621b79c13a8b716b') in 0.083255 seconds
+  Import took 0.088250 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003990 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.099 seconds
+Registering precompiled user dll's ...
+Registered in 0.074615 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.179 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 2.633000 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.058400 ms MarkObjects: 1.256400 ms  DeleteObjects: 0.938200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.641576 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(b441a195541a83d4da62c85390dbbe8e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/021446a59698e8348810746f3f4dd471.asset.1.index for Assets/Scripts/Player/PlayerMovement.cs with Types
+Done importing asset: 'Assets/Scripts/Player/PlayerMovement.cs' (target hash: 'a6cea5549aa14fee6444fbb224b48f00') in 0.064852 seconds
+  Import took 0.069495 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/2019.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003983 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.414 seconds
+Registering precompiled user dll's ...
+Registered in 0.085979 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\junhyunpark\Unity Projects\pixel horror game\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.278 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 41.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 2.432400 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.176300 ms  DeleteObjects: 0.916500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.547773 seconds.
+  path: Assets/Environment/Family.mat
+  artifactKey: Guid(74589d4905e690b4aa87a6e56bc3a847) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Environment/Family.mat using Guid(74589d4905e690b4aa87a6e56bc3a847) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f3643955efa5afa46adbe040fd42a684.asset.1.index for Assets/Environment/Family.mat with Types
+Done importing asset: 'Assets/Environment/Family.mat' (target hash: 'a151f9f59c2a3249b10e64f24cac7ec0') in 0.090303 seconds
+  Import took 0.095377 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5b6662dd09142fb40ae8b982df587562.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: '3edf813ad9f5aba0b6f10cb05962447b') in 0.013049 seconds
+  Import took 0.016477 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
