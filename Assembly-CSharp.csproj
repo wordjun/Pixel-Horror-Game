@@ -62,11 +62,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DoorScript.cs" />
-    <Compile Include="Assets\FlashlightControl.cs" />
+    <Compile Include="Assets\Keypad\Script\Playsound.cs" />
     <Compile Include="Assets\Pixelate\Pixelate.cs" />
+    <Compile Include="Assets\Scripts\DoorScript.cs" />
+    <Compile Include="Assets\Scripts\Player\FlashlightControl.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PushButton.cs" />
+    <Compile Include="Assets\Scripts\ShowNumbers.cs" />
+    <Compile Include="Assets\setActive.cs" />
     <None Include="Assets\Pixelate\Pixelate.shader" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
