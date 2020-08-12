@@ -8,11 +8,18 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     public float sensitivity = 3f;
     Rigidbody rb1;
+    public AudioSource footsteps;
+    public AudioClip walkSound;
+    public float footStepDelay;
+    private float nextFootstep = 0;
+    public bool isPlayerMoving;
+
     // Start is called before the first frame update
     void Start()
     {
+        isPlayerMoving = false;
         rb1 = GetComponent<Rigidbody>();//get the rigidbody component from player
-
+        footsteps = GetComponent<AudioSource>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -21,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //update every movement
         Movement();
+        playerSound();
         CameraMovement();
 
         //will trigger at the moment ESC is pressed
@@ -30,11 +38,20 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
             Cursor.lockState = CursorLockMode.Locked;
     }
+    void playerSound()
+    {
+        nextFootstep -= Time.deltaTime;
+        if (nextFootstep <= 0 && isPlayerMoving)
+        {
+            footsteps.PlayOneShot(walkSound, 0.5f);
+            nextFootstep += footStepDelay;
+        }
+    }
     void Movement(){
         Vector3 finalVelocity = Vector3.zero;
         Vector3 horizontal = Vector3.zero;
         Vector3 vertical = Vector3.zero;
-
+        
         if (Input.GetKey(KeyCode.D))
             horizontal = transform.right;
         else if (Input.GetKey(KeyCode.A))
@@ -51,7 +68,12 @@ public class PlayerMovement : MonoBehaviour
 
         rb1.velocity = (horizontal + vertical) * speed;
 
+        if(Input.GetKey(KeyCode.None))
+            isPlayerMoving = false;
+        else
+            isPlayerMoving = true;
     }
+
     public float smooth = 2f;
     Vector2 finalMovement;
     Vector2 smoothValue;
