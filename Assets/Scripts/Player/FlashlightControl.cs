@@ -5,6 +5,7 @@ using UnityEngine;
 public class FlashlightControl : MonoBehaviour
 {
     private Light myLight;
+    public AudioSource torchClick;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,8 @@ public class FlashlightControl : MonoBehaviour
                 myLight.enabled = true;
             else
                 myLight.enabled = false;
+
+            torchClick.Play();
         }
     }
 }

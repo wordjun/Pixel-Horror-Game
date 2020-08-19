@@ -8,11 +8,10 @@ public class DoorScript : MonoBehaviour
     public AudioSource audioSource;
     public bool isInFrontOfDoor;
     public bool isDoorOpen;
+
     // Start is called before the first frame update
     void Start()
     {
-        door = GameObject.FindWithTag("Door");
-        audioSource = GetComponent<AudioSource>();
         isInFrontOfDoor = false;
         isDoorOpen = false;
     }
@@ -62,7 +61,7 @@ public class DoorScript : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.E) && isInFrontOfDoor && isDoorOpen)
         {
             door.transform.Rotate(-rotate, Space.Self);
-            PlayReverseAudio();
+            PlayAudio();
             isDoorOpen = false;
         }
     }
