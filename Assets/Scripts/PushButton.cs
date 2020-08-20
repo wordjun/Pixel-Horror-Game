@@ -58,7 +58,10 @@ public class PushButton : MonoBehaviour
     }
     void Update()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        if (safe.activeSelf)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 }

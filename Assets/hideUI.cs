@@ -28,6 +28,8 @@ public class hideUI : MonoBehaviour
     void Update()
     {
         if (!safe.activeSelf)
+        {
             hideUi();
+        }
     }
 }

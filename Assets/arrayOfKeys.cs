@@ -4,23 +4,12 @@ using UnityEngine;
 
 public class arrayOfKeys : MonoBehaviour
 {
-    public GameObject[] keys;
-    public bool[] hasKeys;
+    public static bool[] hasKeys;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        hasKeys = new bool[5];//맵의 키는 총 5개
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //첫번째 key 획득 시(획득했다면 해당 key오브젝트가 inactive
-        if (!keys[0].activeSelf)
-        {
-            hasKeys[0] = true;
-            
-        }
-    }
 }
