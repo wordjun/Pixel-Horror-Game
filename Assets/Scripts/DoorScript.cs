@@ -26,13 +26,13 @@ public class DoorScript : MonoBehaviour
         if (other.tag == "Player")
             isInFrontOfDoor = false;
     }
-    public void PlayAudio()
+    public void PlayAudio()//문 열릴때 소리
     {
         audioSource.pitch = 1;
         audioSource.Play();
 
     }
-    public void PlayReverseAudio()
+    public void PlayReverseAudio()//문 닫힐때 소리(역재생)
     {
         audioSource.pitch = -1;
         audioSource.loop = true;
