@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Player\FlashlightControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PushButton.cs" />
+     <Compile Include="Assets\Scripts\TextFade.cs" />
      <Compile Include="Assets\Scripts\footSteps.cs" />
      <Compile Include="Assets\Scripts\getKey.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />

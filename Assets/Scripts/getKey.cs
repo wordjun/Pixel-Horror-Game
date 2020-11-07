@@ -12,9 +12,10 @@ public class getKey : MonoBehaviour
     public GameObject keyBox;
     public GameObject keypadUI;
     public GameObject guideToKey;
-    public GameObject obtainedKey;
+    //public GameObject obtainedKey;
     public AudioSource gotKeySoundEffect;
-    
+
+    public bool hasObtainedKey;
     public bool isInFrontOfKey;
     void OnTriggerEnter(Collider other)
     {
@@ -29,13 +30,15 @@ public class getKey : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hasObtainedKey = false;
         //hiddenPlace = GetComponent<GameObject>();
         //mainRoomKey = GetComponent<GameObject>();
         //player = GetComponent<GameObject>();
         guideToKey.SetActive(false);
-        obtainedKey.SetActive(false);
+        //obtainedKey.SetActive(false);
         isInFrontOfKey = false;
     }
+
     
     // Update is called once per frame
     void Update()
@@ -47,8 +50,10 @@ public class getKey : MonoBehaviour
             guideToKey.SetActive(true);
             if (Input.GetKey(KeyCode.E)) //입력값으로 E를 눌렀을 때
             {
+                hasObtainedKey = true;
                 guideToKey.SetActive(false);
-                obtainedKey.SetActive(true);//키획득 메시지 후 약간의 딜레이 필요
+                //obtainedKey.SetActive(true);//키획득 메시지 후 약간의 딜레이 필요
+
                 gotKeySoundEffect.Play();//열쇠 획득 효과음 재생
                                          //key는 keybox 에 담는다(keybox는 별개의 공간에 위치, 맵과 멀리떨어져있도록)
                 mainRoomKey.transform.position = keyBox.transform.position;
@@ -69,7 +74,7 @@ public class getKey : MonoBehaviour
         else
         {
             guideToKey.SetActive(false);
-            obtainedKey.SetActive(false);
+            //obtainedKey.SetActive(false);
         }
     }
 }

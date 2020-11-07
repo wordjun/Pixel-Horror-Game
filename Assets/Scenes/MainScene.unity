@@ -11898,6 +11898,7 @@ GameObject:
   - component: {fileID: 1119596982}
   - component: {fileID: 1119596981}
   - component: {fileID: 1119596980}
+  - component: {fileID: 1119596983}
   m_Layer: 5
   m_Name: obtainedKey
   m_TagString: Untagged
@@ -11985,6 +11986,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1119596983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119596978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214306507b21ca141b0e5261175008e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1219582970}
 --- !u!4 &1120025981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: da90dd5c59fc7b74797111fdae04254f,
@@ -17967,7 +17981,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14454
+  m_Name: pb_Mesh14456
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18560,7 +18574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &2063753132
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22652,6 +22666,11 @@ PrefabInstance:
       propertyPath: obtainedKey
       value: 
       objectReference: {fileID: 1119596978}
+    - target: {fileID: 3190910404790532099, guid: c68c110cec80f1c4fab7a1c6014eb352,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 1219582970}
     - target: {fileID: 3190910405059291535, guid: c68c110cec80f1c4fab7a1c6014eb352,
         type: 3}
       propertyPath: m_LocalPosition.x
