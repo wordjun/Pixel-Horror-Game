@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TextFade : MonoBehaviour
 {
     public Text text;
+    public Animation textFadeoutAnim;
     void Awake()
     {
         text.color = new Color(text.color.r, text.color.g, text.color.b, 0);
@@ -15,8 +16,8 @@ public class TextFade : MonoBehaviour
     {
         if (GameObject.Find("KeyToMainRoom").GetComponent<getKey>().hasObtainedKey)
         {
-            Debug.Log("obtained key: " + GameObject.Find("KeyToMainRoom").GetComponent<getKey>().hasObtainedKey);
-            StartCoroutine(FadeTextToZeroAlpha());
+            //Debug.Log("obtained key: " + GameObject.Find("KeyToMainRoom").GetComponent<getKey>().hasObtainedKey);
+            textFadeoutAnim.Play();
         }
     }
     public IEnumerator FadeTextToFullAlpha()//alpha 0 -> 1
