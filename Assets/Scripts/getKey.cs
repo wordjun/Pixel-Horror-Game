@@ -59,14 +59,14 @@ public class getKey : MonoBehaviour
                 mainRoomKey.transform.position = keyBox.transform.position;
                 //player가 key를 소지하게 됨
                 arrayOfKeys.hasKeys[1] = true;//1번째 인덱스(두번째 키)는 안방으로 향하는 문의 열쇠
-                                              //Debug.Log("Obtained Key to Main Room.");
-                                              //for(int i = 0; i < 5; i++)
-                                              //{
-                                              //    if(arrayOfKeys.hasKeys[i])
-                                              //        Debug.Log("key number " + (i + 1) + "obtained");
-                                              //    else
-                                              //        Debug.Log("key number " + (i + 1) + "not obtained yet");
-                                              //}
+                Debug.Log("Obtained Key to Main Room.");
+                for (int i = 0; i < 5; i++)
+                {
+                    if (arrayOfKeys.hasKeys[i])
+                        Debug.Log("key number " + (i + 1) + "obtained");
+                    else
+                        Debug.Log("key number " + (i + 1) + "not obtained yet");
+                }
 
                 Cursor.visible = false;//UI가 꺼지고 나서 마우스도 비활성화
             }

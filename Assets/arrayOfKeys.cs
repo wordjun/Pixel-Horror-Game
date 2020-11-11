@@ -7,7 +7,7 @@ public class arrayOfKeys : MonoBehaviour
     public static bool[] hasKeys;
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         hasKeys = new bool[5];//맵의 키는 총 5개
     }
