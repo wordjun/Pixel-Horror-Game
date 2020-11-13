@@ -57,7 +57,11 @@
   <ItemGroup>
      <Compile Include="Assets\Keypad\Script\Playsound.cs" />
      <Compile Include="Assets\Pixelate\Pixelate.cs" />
-     <Compile Include="Assets\Scripts\DoorScript.cs" />
+     <Compile Include="Assets\Scripts\Doorscripts\BathroomDoor.cs" />
+     <Compile Include="Assets\Scripts\Doorscripts\Bedroom1Door.cs" />
+     <Compile Include="Assets\Scripts\Doorscripts\Bedroom2Door.cs" />
+     <Compile Include="Assets\Scripts\Doorscripts\FrontDoor.cs" />
+     <Compile Include="Assets\Scripts\Doorscripts\MainroomDoor.cs" />
      <Compile Include="Assets\Scripts\Look.cs" />
      <Compile Include="Assets\Scripts\Player\FlashlightControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
