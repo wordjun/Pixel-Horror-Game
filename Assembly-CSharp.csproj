@@ -67,13 +67,13 @@
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PushButton.cs" />
      <Compile Include="Assets\Scripts\TextFade.cs" />
+     <Compile Include="Assets\Scripts\arrayOfKeys.cs" />
      <Compile Include="Assets\Scripts\footSteps.cs" />
      <Compile Include="Assets\Scripts\getKey.cs" />
+     <Compile Include="Assets\Scripts\hideUI.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
+     <Compile Include="Assets\Scripts\quizUI.cs" />
      <Compile Include="Assets\Scripts\setActive.cs" />
-     <Compile Include="Assets\arrayOfKeys.cs" />
-     <Compile Include="Assets\hideUI.cs" />
-     <Compile Include="Assets\quizUI.cs" />
      <None Include="Assets\Pixelate\Pixelate.shader" />
      <None Include="Assets\Fonts\pixelade\leame.txt" />
      <None Include="Assets\Fonts\pixelade\llegiu-me.txt" />
@@ -654,6 +654,9 @@
  </Reference>
  <Reference Include="com.unity.quicksearch">
  <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
