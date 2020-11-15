@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Doorscripts\Bedroom2Door.cs" />
      <Compile Include="Assets\Scripts\Doorscripts\FrontDoor.cs" />
      <Compile Include="Assets\Scripts\Doorscripts\MainroomDoor.cs" />
+     <Compile Include="Assets\Scripts\HUD.cs" />
      <Compile Include="Assets\Scripts\Look.cs" />
      <Compile Include="Assets\Scripts\Player\FlashlightControl.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
@@ -643,6 +644,9 @@
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.ProBuilder.AddOns.Editor">
  <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
@@ -654,9 +658,6 @@
  </Reference>
  <Reference Include="com.unity.quicksearch">
  <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/junhyunpark/Unity Projects/Pixel-Horror-Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
