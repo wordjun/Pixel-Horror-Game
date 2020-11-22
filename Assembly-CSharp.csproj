@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\footSteps.cs" />
      <Compile Include="Assets\Scripts\getKey.cs" />
      <Compile Include="Assets\Scripts\hideUI.cs" />
+     <Compile Include="Assets\Scripts\pickupPlates.cs" />
      <Compile Include="Assets\Scripts\playerMovement.cs" />
      <Compile Include="Assets\Scripts\quizUI.cs" />
      <Compile Include="Assets\Scripts\setActive.cs" />
