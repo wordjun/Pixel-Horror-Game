@@ -8,6 +8,7 @@ public class pickupPlates : MonoBehaviour
     public GameObject pickupPlateUI;
     public GameObject plate;
     public GameObject HUD;
+    public AudioSource pickupSound;
 
     public bool isInFrontOfPlate;
     void OnTriggerEnter(Collider other)
@@ -34,9 +35,9 @@ public class pickupPlates : MonoBehaviour
             pickupPlateUI.SetActive(true);
             if (Input.GetKey(KeyCode.E))
             {
+                pickupSound.Play();
                 plate.SetActive(false);//E키를 눌러 주우면 접시는 사라짐
                 //아이템창에 뜸
-
             }
         }
         else
