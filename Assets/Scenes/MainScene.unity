@@ -3715,8 +3715,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.3865826, y: 1.0000004, z: 1.0000001}
-  m_Center: {x: -1.1932904, y: -0.0000066814882, z: -0.000007644602}
+  m_Size: {x: 3.3865826, y: 0.24228375, z: 1.0000001}
+  m_Center: {x: -1.1932904, y: -0.3788649, z: -0.000007411258}
 --- !u!82 &332911648
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5858,7 +5858,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15088
+  m_Name: pb_Mesh15092
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9449,7 +9449,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14748
+  m_Name: pb_Mesh14750
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14195,7 +14195,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15432
+  m_Name: pb_Mesh15440
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20008,7 +20008,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14880
+  m_Name: pb_Mesh14882
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20713,7 +20713,6 @@ GameObject:
   - component: {fileID: 1515183982}
   - component: {fileID: 1515183981}
   - component: {fileID: 1515183985}
-  - component: {fileID: 1515183984}
   - component: {fileID: 1515183986}
   m_Layer: 0
   m_Name: GoldenPlate
@@ -20797,23 +20796,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515183979}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1515183984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515183979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5331029991000ad428b1f4e06385275f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupPlateUI: {fileID: 1765769253}
-  plate: {fileID: 1515183979}
-  HUD: {fileID: 0}
-  pickupSound: {fileID: 1515183986}
-  isInFrontOfPlate: 0
 --- !u!65 &1515183985
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21222,7 +21204,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14836
+  m_Name: pb_Mesh14838
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21514,8 +21496,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.3828297, y: 1.0000004, z: 1.0000001}
-  m_Center: {x: -1.1914147, y: -0.0000014420478, z: -0.000015250407}
+  m_Size: {x: 3.3828297, y: 0.24816655, z: 1.0000001}
+  m_Center: {x: -1.1914147, y: 0.4135576, z: -0.000015505124}
 --- !u!82 &1662802379
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23100,7 +23082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2036669374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23197,7 +23179,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15026
+  m_Name: pb_Mesh15028
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
